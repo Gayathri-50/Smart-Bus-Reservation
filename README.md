@@ -1,26 +1,44 @@
-# 🚌 Smart Bus Reservation System
+# Smart Bus Reservation System
 
-A full-stack web application for easy and secure bus ticket booking with online payments and email notifications.
+A full-stack web application designed to simplify bus reservations with bus search, seat selection, online payments, and automated booking notifications.
 
-### ✨ Features
-- User registration and login
-- Bus search and seat selection
-- Online payments using Razorpay
-- Booking confirmation emails to users and guardians
-- Admin and manager dashboards
-- Booking and bus management
+## Key Features
 
-### 🛠️ Tech Stack
-React, Vite, Node.js, Express.js, MongoDB, Razorpay, and Nodemailer.
+- User Registration and Authentication
+- Bus Search and Seat Selection
+- Online Payment Integration with Razorpay
+- Booking Confirmation Emails for Users and Guardians
+- Admin and Manager Dashboards
+- Bus and Booking Management
 
-### 🚀 Getting Started
+## Technology Stack
+
+- **Frontend:** React, Vite
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Payment Gateway:** Razorpay
+- **Email Notifications:** Nodemailer
+
+## Getting Started
+
+Clone the repository:
+
 ```bash
-# Backend
+git clone https://github.com/Gayathri-50/Smart-Bus-Reservation.git
+cd Smart-Bus-Reservation
+```
+
+Install dependencies and start the backend:
+
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-# Frontend (in a new terminal)
+In a separate terminal, start the frontend:
+
+```bash
 cd frontend
 npm install
 npm run dev
@@ -28,4 +46,21 @@ npm run dev
 
 Configure the required environment variables before running the application.
 
-**Developed as a team project.**
+## Security
+
+- Secure environment-based configuration
+- Backend payment verification
+- Role-based access control
+
+## Project Objective
+
+To provide a convenient digital platform for bus ticket booking while simplifying reservation management and improving passenger communication.
+
+## Repository
+
+[Smart Bus Reservation System — GitHub](https://github.com/Gayathri-50/Smart-Bus-Reservation)
+
+---
+
+**Project Type:** Full-Stack Web Application  
+**Domain:** Transportation and Reservation Management
